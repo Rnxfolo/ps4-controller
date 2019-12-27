@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--CSS Styles-->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!--FontAwesome Icon Script-->
+    <script src="https://kit.fontawesome.com/dba8d7be4d.js" crossorigin="anonymous"></script>
+    <!--GSAP Animation CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    
+    <title>PS4 Controller</title>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <div id="logo">
+            <img src="/img/pslogo.png">
+        </div>
+        
+        
+        <ul class="navigation">
+            <li><a href="#">Game Controllers</a></li>
+            <li><a href="#">VR Accessories</a></li>
+            <li><a href="#">Media Remotes</a></li>
+            <li><a href="#">Others</a></li>
+        </ul>
+        
+        
+            
+        <form id="search">
+            <i class="fas fa-search fa-2x" id="searchIcon"></i>
+            <input type="text" placeholder="Search our store" id="searchQuery">
+        </form>
+
+        <div id="cart">
+            <i class="fas fa-shopping-bag fa-2x"></i>
+            <i class="fas fa-user-circle fa-2x"></i>
+        </div>
+            
+            
+        
+
+        <div class="content">
+            <h1>PS4 V2<br> DualShock 4</h1>
+            <h3>Wireless Controller for PlayStation 4</h3>
+            <p>[Compatible w/ PlayStation 4 consoles]</p>
+            <h2 id="price">49.99</h2>
+            <button id="addToCart">Add to Cart</button>
+            <div id="selection">
+                <button id="white" class="selected"></button>
+                <button id="black"></button>
+                <button id="blue"></button>
+                <button id="red"></button>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="/img/white.png" id="itemPhoto">
+        </div>
+
+        <div class="itemnum">
+            <h1>01</h1>
+        </div>
+
+        <div class="footer">
+            <ul class="footlist">
+                <li><i class="fab fa-facebook"></i></li>
+                <li><i class="fab fa-twitter-square"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--JavaScript-->
+    <script src="main.js"></script>
+</body>
+</html>
